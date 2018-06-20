@@ -1,16 +1,4 @@
-/*img {
-  display: inline;
-  width: 350px;
-  height: 350px;
-  margin-left: 15px;
-  margin-bottom: 15px;
-}
-
-.container {
-  margin: 20px 200px 20px 200px;
-}*/
-
-
+/* GRID */
 body {
   background-color: #ededed;
 }
@@ -26,29 +14,40 @@ body {
     "f f f"
 }
 
+/* HEADER */
 .header {
   grid-area: h;
-  background-color: #42f4dc;
+  background-color: #ededed;
   display: flex;
-
+  justify-content: center;
 }
 
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 45px;
+  font-weight: 200;
+}
+
+/* CONTENT */
 .content {
   grid-area: c;
   column-count: 3;
-  column-gap: 1.5em;
-}
-
-.footer {
-  grid-area: f;
-  background-color: #42f4dc;
+  column-gap: .5em;
 }
 
 img {
   display: inline-block;
-  margin: 0 0 1em;
+  margin: 0 0 0.5em;
   width: 100%;
 }
+
+/* FOOTER */
+.footer {
+  grid-area: f;
+  background-color: #ededed;
+}
+
+
 
 
 /* Maybe add later*/
