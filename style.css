@@ -65,6 +65,9 @@ img:hover {
   opacity: 0.8;
 }
 
+#tall {
+  height: 450px;
+}
 
 /* FOOTER */
 .footer {
@@ -96,11 +99,8 @@ a:hover {
 
 
 
-/* Maybe add later*/
 
-.tall {
-  height: 450px;
-}
+
 
 
 
