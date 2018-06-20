@@ -18,6 +18,7 @@ body {
 .header {
   grid-area: h;
   background-color: #ededed;
+  color: #5b5b5b;
   display: flex;
   justify-content: center;
 }
@@ -26,6 +27,18 @@ h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 45px;
   font-weight: 200;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+}
+
+ul li {
+  display: inline;
+  text-transform: uppercase;
+  font-family: 'Gaegu', cursive;
 }
 
 /* CONTENT */
@@ -39,13 +52,46 @@ img {
   display: inline-block;
   margin: 0 0 0.5em;
   width: 100%;
+  fill: transparent;
+  opacity: 0.9;
+  cursor: pointer;
 }
+
+img:hover {
+  opacity: 0.6;
+}
+
+#op {  /* picture too bright by default */
+  opacity: 0.8;
+}
+
 
 /* FOOTER */
 .footer {
   grid-area: f;
   background-color: #ededed;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20%;
 }
+
+.footer ul li p {
+  font-size: 0.8em;
+}
+
+.footer ul li {
+  font-size: 2em;
+  color: #5b5b5b;
+}
+
+a:visited {
+  color: #5b5b5b;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
 
 
 
