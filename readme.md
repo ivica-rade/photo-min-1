@@ -7,11 +7,3 @@ It is built by using the CSS Grid property and Lightbox by <a href="https://twit
 
 
 <a href="https://ivica-rade.github.io/photo-min-1/">GitHub Pages link</a>
-
-
-<hr>
-<ul>TODO:
-	<li>style footer</li>
-	<li>seperate css for pages</li>
-	<li>finish about/contact and call it a day</li>
-</ul>
